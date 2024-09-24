@@ -1,27 +1,7 @@
-
-.topMenu
-{
-    height: 10vh;
-    max-height: 50px;
-    text-align: center;
-    position: fixed;
-    top: 0%;
-    background-color: white;
-    width: 100%;
-    place-items: center;
-}
-
 .App-logo 
 {
     max-height: 40px;
     width: auto;
-    position: fixed;
     top: 1vh;
     left: 1vh;
-}
-
-.topMenu :link
-{
-    margin: auto;
-    margin-left: 12vh;
 }
