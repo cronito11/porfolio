@@ -14,9 +14,9 @@ export default function Layout()
             <section class="navbar-section">
                 <Link to ="/" className='btn btn-link'>Home</Link>
                 <Link to ="/About" className='btn btn-link'>About me</Link>
-                <Link to ="/Education" className='btn btn-link'>Education</Link>
-                <Link to ="/Project" className='btn btn-link'>Project</Link>
-                <Link to ="/Contract" className='btn btn-link'>Contract</Link>
+                <Link to ="/Services" className='btn btn-link'>Services</Link>
+                <Link to ="/Project" className='btn btn-link'>Projects</Link>
+                <Link to ="/Contract" className='btn btn-link'>Contact</Link>
             </section>
         </header>
     </>
