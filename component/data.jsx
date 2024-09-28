@@ -37,3 +37,32 @@ export const servicesInfo = [{
     imgUrl : "../src/assets/btnRealidadAumentada.png"
 }
 ]
+
+export const formDataInput = 
+[
+    {
+        label: "First Name",
+        type : "text",
+        id: "inputFirstName",
+        placeHolder: "First Name"
+    },
+    {
+        label: "Last Name",
+        type : "text",
+        id: "inputLastName",
+        placeHolder: "Last Name"
+    },
+    {
+        label: "Contact Number",
+        type : "tel",
+        id: "inputNumber",
+        placeHolder: "0(000)000-0000"
+    },
+    {
+        label: "Email",
+        type : "email",
+        id: "inputMail",
+        placeHolder: "Email",
+        pattern: "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,14}$"
+    },
+]
