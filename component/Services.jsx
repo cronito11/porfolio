@@ -1,29 +1,14 @@
-const cardsInformation = [{
-    cardTitle : "Apps",
-    imgUrl : "../src/assets/btnApps.png"
-},
-{
-    cardTitle : "Video Games",
-    imgUrl : "../src/assets/btnVideojuegos.png"
-},
-{
-    cardTitle : "Augmented Reality",
-    imgUrl : "../src/assets/btnRealidadAumentada.png"
-},
-{
-    cardTitle : "Virtual Reality",
-    imgUrl : "../src/assets/btnRealidadAumentada.png"
-}
-]
+import { projectInfo, servicesInfo } from './data';
+
 export default function Services()
 {
     return <>
     <h1>Services</h1>
     <div class="columns">
-        {CreateCard(cardsInformation[0].imgUrl, cardsInformation[0].cardTitle)}
-        {CreateCard(cardsInformation[1].imgUrl, cardsInformation[1].cardTitle)}
-        {CreateCard(cardsInformation[2].imgUrl, cardsInformation[2].cardTitle)}
-        {CreateCard(cardsInformation[3].imgUrl, cardsInformation[3].cardTitle)}
+       { servicesInfo.map((info,index) =>(
+          CreateCard(info.imgUrl, info.cardTitle)  
+        ))
+    }
     </div>
     </>
 }

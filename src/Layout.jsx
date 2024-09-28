@@ -12,11 +12,11 @@ export default function Layout()
                 <img src={logo} className="App-logo" alt="logo" />
             </section>
             <section class="navbar-section">
-                <Link to ="/" className='btn btn-link'>Home</Link>
-                <Link to ="/About" className='btn btn-link'>About me</Link>
-                <Link to ="/Services" className='btn btn-link'>Services</Link>
-                <Link to ="/Project" className='btn btn-link'>Projects</Link>
-                <Link to ="/Contract" className='btn btn-link'>Contact</Link>
+               <h2> <Link to ="/" className='btn btn-link'>Home</Link> </h2>
+                 <h2><Link to ="/About" className='btn btn-link'>About me</Link></h2>
+                 <h2><Link to ="/Services" className='btn btn-link'>Services</Link></h2>
+                 <h2><Link to ="/Project" className='btn btn-link'>Projects</Link></h2>
+                 <h2><Link to ="/Contact" className='btn btn-link'>Contact</Link></h2>
             </section>
         </header>
     </>
