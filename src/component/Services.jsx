@@ -1,5 +1,7 @@
 //the Services.jsx, Luis Eduardo Orjuela Rojas, 301474380, 28/09/2024
 import { projectInfo, servicesInfo } from './data';
+//import call to action button
+import CallToAction from './callToActionContact'
 
 export default function Services()
 {
@@ -11,6 +13,7 @@ export default function Services()
         ))
     }
     </div>
+    <CallToAction/>
     </>
 }
 

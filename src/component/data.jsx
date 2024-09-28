@@ -1,5 +1,5 @@
 //the data.jsx, Luis Eduardo Orjuela Rojas, 301474380, 28/09/2024
-
+//Data for the projects
 export const projectInfo = [{
     cardTitle : "Champions Ascension",
     cardSubtitle : "Role: Unity Developer",
@@ -22,49 +22,25 @@ export const projectInfo = [{
 }
 ]
 
+//Data for services cards
+import btnApps from '../assets/btnApps.png';
+import btnVideojuegos from '../assets/btnVideojuegos.png';
+import btnRealidadAumentada from '../assets/btnRealidadAumentada.png';
+
 export const servicesInfo = [{
     cardTitle : "Apps",
-    imgUrl : "../src/assets/btnApps.png"
+    imgUrl :btnApps
 },
 {
     cardTitle : "Video Games",
-    imgUrl : "../src/assets/btnVideojuegos.png"
+    imgUrl : btnVideojuegos
 },
 {
     cardTitle : "Augmented Reality",
-    imgUrl : "../src/assets/btnRealidadAumentada.png"
+    imgUrl : btnRealidadAumentada
 },
 {
     cardTitle : "Virtual Reality",
-    imgUrl : "../src/assets/btnRealidadAumentada.png"
+    imgUrl : btnRealidadAumentada
 }
-]
-
-export const formDataInput = 
-[
-    {
-        label: "First Name",
-        type : "text",
-        id: "inputFirstName",
-        placeHolder: "First Name"
-    },
-    {
-        label: "Last Name",
-        type : "text",
-        id: "inputLastName",
-        placeHolder: "Last Name"
-    },
-    {
-        label: "Contact Number",
-        type : "tel",
-        id: "inputNumber",
-        placeHolder: "0(000)000-0000"
-    },
-    {
-        label: "Email",
-        type : "email",
-        id: "inputMail",
-        placeHolder: "Email",
-        pattern: "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,14}$"
-    },
 ]

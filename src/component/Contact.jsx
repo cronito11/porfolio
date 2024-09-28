@@ -1,10 +1,13 @@
 //the Contact.jsx, Luis Eduardo Orjuela Rojas, 301474380, 28/09/2024
-
+///Imports
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import mySelf from '../assets/myself.jpg';
 
+//Function Contact
 export default function Contact() {
   const navigate = useNavigate(); // Hook to programmatically navigate
+  //Variabl declaration
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -12,6 +15,7 @@ export default function Contact() {
     contactNumber: '',
   });
 
+  //React documentation
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -26,13 +30,13 @@ export default function Contact() {
     // Redirect to the home page after submission
     navigate('/'); // Redirect to home
   };
-
+//Create a form
   return (
     <>
       <h1>Contact</h1>
       <div className="columns">
         <div className="column">
-        <img src="../src/assets/myself.jpg" class="img-responsive s-circle" id="aboutMyPhoto" alt="..." />
+        <img src={mySelf} class="img-responsive s-circle" id="aboutMyPhoto" alt="..." />
         </div>
         <div className="divider-vert" data-content="OR"></div>
         <div className="column">
@@ -57,7 +61,7 @@ export default function Contact() {
     </>
   );
 }
-
+//Submit button, in future add state to change with are sending information
 function Submit() {
     return (
         <button type="submit">

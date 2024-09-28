@@ -1,7 +1,8 @@
 //the callToActionContact.jsx, Luis Eduardo Orjuela Rojas, 301474380, 28/09/2024
-
+//Import css
+import "../../style/callToAction.css"
+//import react touter dom for link
 import { Link } from 'react-router-dom';
-import "../style/callToAction.css"
 
 export default function CallToAction()
 {

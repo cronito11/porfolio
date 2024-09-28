@@ -1,5 +1,7 @@
 //the Home.jsx, Luis Eduardo Orjuela Rojas, 301474380, 28/09/2024
-import '../style/home.css'
+//Import css
+import '../../style/home.css'
+//import call to action button
 import CallToAction from './callToActionContact'
 
 export default function Home()
