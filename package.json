@@ -2,7 +2,6 @@
   "homePage": "http://cronito11.github.io/porfolio",
   "name": "porfolio",
   "private": true,
-  "homepage": ".",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
