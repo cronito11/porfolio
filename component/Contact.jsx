@@ -31,7 +31,9 @@ export default function Contact() {
     <>
       <h1>Contact</h1>
       <div className="columns">
-        <div className="column"></div>
+        <div className="column">
+        <img src="../src/assets/myself.jpg" class="img-responsive s-circle" id="aboutMyPhoto" alt="..." />
+        </div>
         <div className="divider-vert" data-content="OR"></div>
         <div className="column">
           <div className="column col-9 col-sm-12">
