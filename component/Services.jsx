@@ -1,3 +1,4 @@
+//the Services.jsx, Luis Eduardo Orjuela Rojas, 301474380, 28/09/2024
 import { projectInfo, servicesInfo } from './data';
 
 export default function Services()

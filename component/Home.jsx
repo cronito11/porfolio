@@ -1,3 +1,4 @@
+//the Home.jsx, Luis Eduardo Orjuela Rojas, 301474380, 28/09/2024
 import '../style/home.css'
 import CallToAction from './callToActionContact'
 

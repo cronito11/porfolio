@@ -1,3 +1,4 @@
+/*the Layout.jsx, Luis Eduardo Orjuela Rojas, 301474380, 28/09/2024*/
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../style/menu.css'

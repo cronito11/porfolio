@@ -1,3 +1,5 @@
+//the data.jsx, Luis Eduardo Orjuela Rojas, 301474380, 28/09/2024
+
 export const projectInfo = [{
     cardTitle : "Champions Ascension",
     cardSubtitle : "Role: Unity Developer",

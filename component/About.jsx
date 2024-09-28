@@ -1,3 +1,4 @@
+//the About.jsx, Luis Eduardo Orjuela Rojas, 301474380, 28/09/2024
 import { Link } from "react-router-dom"
 import resume from "../src/assets/Game Developer CV- Luis Orjuela.pdf";
 import "../style/aboutMe.css"

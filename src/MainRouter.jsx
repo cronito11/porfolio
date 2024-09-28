@@ -1,3 +1,4 @@
+/*the MainRouter.css, Luis Eduardo Orjuela Rojas, 301474380, 28/09/2024*/
 import React from 'react'
 import {Route, Routes} from "react-router-dom"
 import About from "../component/About"

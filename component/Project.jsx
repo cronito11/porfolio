@@ -1,3 +1,4 @@
+//the Project.jsx, Luis Eduardo Orjuela Rojas, 301474380, 28/09/2024
 import { projectInfo } from './data';
 
 export default function Project()
